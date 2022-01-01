@@ -11,7 +11,7 @@ title:  "API Keys"
 tags: [basics]
 ---
 
-To call algorithms and interact with the Data API, you'll use an API key for authenticatication.
+To call algorithms and interact with the Data API, you'll use an API key for authentication.
 
 This guide will show how to create new API keys and customize API access to suit your security needs.
 
@@ -42,7 +42,7 @@ Click the "Create New" button to the right of your username. Choose "API Key" wh
 
 Each API key can be customized to enable or restrict access depending on your needs.
 
-**Best Practice:** each application should have a its own API key with customized settings for that application's specific use case.
+**Best Practice:** each application should have its own API key with customized settings for that application's specific use case.
 
 ### Whitelist Algorithms
 
@@ -105,7 +105,7 @@ You can also control whether or not an API key can manage algorithms you own on 
 
 ## Admin API Keys
 
-If you are the administrator of an Algorithmia cluster, you may create admin API keys to interface with admin-only API endpoints, such as `/users` and `/organizations`. Endpoints which specifically require admin API keys are noted in our [API documentation](/developers/api).
+If you are the administrator of an Algorithmia cluster, you may create admin API keys to interface with admin-only API endpoints, such as `/users` and `/organizations`. Endpoints that specifically require admin API keys are noted in our [API documentation](/developers/api).
 
 To create an admin key, simply select "Admin API Key" from the "Create New" menu in the upper right-hand corner of your dashboard:
 
@@ -115,7 +115,7 @@ Give your admin API key a name, then click "Create Admin Key":
 
 <img src="{{site.cdnurl}}{{site.baseurl}}/images/post_images/api_keys/describe-admin-key.png" alt="Name an admin API key" class="screenshot">
 
-Your new admin API key will be added to your list of API keys, and can be used to interact with admin-only API endpoints. Admin API keys are distinguished by the "Admin Key" badge adjacent to their label:
+Your new admin API key will be added to your list of API keys and can be used to interact with admin-only API endpoints. Admin API keys are distinguished by the "Admin Key" badge adjacent to their label:
 
 <img src="{{site.cdnurl}}{{site.baseurl}}/images/post_images/api_keys/admin-key-in-list.png" alt="Admin API key in API key list" class="screenshot">
 
